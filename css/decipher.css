@@ -355,9 +355,9 @@ a:hover, a:focus, a:active {
 }
 
 #back-circle {
-  width: 40rem;
-  height: 40rem;
-  padding-top: 12rem;
+  width: 50rem;
+  height: 50rem;
+  padding-top: 18rem;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 50%;
 }
