@@ -351,7 +351,11 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: #ECB807 !important;
+}
+
+.text-white {
+  color: #FFFFFF !important;
 }
 
 #back-circle {
@@ -373,9 +377,9 @@ a:hover, a:focus, a:active {
 
 @media ( max-width: 600px ) {
   #back-circle {
-    width: 20rem;
-    height: 20rem;
-    padding-top: 5rem;
+    width: 30rem;
+    height: 30rem;
+    padding-top: 10rem;
   }
   .btn-primary {
     margin-top: -2rem;

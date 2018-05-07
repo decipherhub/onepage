@@ -26,6 +26,7 @@
 
   <body id="page-top">
     <!-- Navigation -->
+    <!--
     <a class="menu-toggle rounded" href="#">
       <i class="fa fa-bars"></i>
     </a>
@@ -51,13 +52,14 @@
         </li>
       </ul>
     </nav>
+    -->
 
     <!-- Header -->
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
 	<div id="back-circle">
           <img src="img/decipher-logo-white.png" style="width:80%; margin-bottom: 10px;">
-          <h3 style="color: #ffe955; font-size:20px;">Seoul Nat'l Univ. Blockchain Academy</h3>
+          <p id="sub-title" style="color: #ffe955; font-size: 20px">Seoul Nat'l Univ. Blockchain Academy</p>
         </div>
       </div>
       <div class="overlay"></div>
@@ -67,19 +69,20 @@
     <section class="content-section bg-light" id="about">
       <div class="container text-left row">
 <!--        <div class="row first-txt"> -->
-          <div class="first-section">
-            <div class=""> 
-                <h4>Decipher is a blockchain Academy at Seoul National University.</h4>
-                <p class="mb-0" style="padding-bottom: 20px">We aim to make positive impact on enhancing blockchain technology and blockchain ecosystem as an academic research group.<br>
+          <!-- <div class="first-section"> -->    
+      	<div class="one-half column" style="margin-top: 0%">
+          <h4>Decipher is a blockchain Academy at Seoul National University.</h4>
+                <p class="mb-0" style="padding-bottom: px">We aim to make positive impact on enhancing blockchain technology and blockchain ecosystem as an academic research group.<br>
                 Decipher is currently publishing articles on Medium at regular basis and planning to hold an open-seminar in coming June.<br>
                 Also, there is a number of on-going projects which focus on blockchain core technology, token economy, Dapps and so on.<br>
-                Our vision “Doing by Learning” serves as a compass for our Roadmap and guides us to continue achieving sustainable and quality growth.<br>
+                Our vision “Learning by Doing” serves as a compass for our Roadmap and guides us to continue achieving sustainable and quality growth.<br>
                 In future, Decipher will establish academic journals to become a major blockchain academic institution.<br>
                 For more information please visit<br>
                 </p>
-            </div>
-            <div id="first-image"><img src="img/rob.png" width="400px"/></div>
-          </div>
+        </div>
+        <div class="one-half column" style="margin-top: 5%">
+          <img src="img/decipher-intro.jpg" width="100%"/></div>
+        </div>
 <!--        </div>-->
       </div>
     </section>
@@ -118,12 +121,14 @@ Therefore, we’re researching VMs on Blockchain to optimize the Blockchain envi
 	       Thus, our team will write a scalability survey paper which includes a summary of every scaling solution, a comparative study of different solutions and finding of complementary aspects among them.</p>
 	</div>
       </div>
+      <!--
       <div class="row">
 	<div class="four columns"><h4>Decentralized Application</h4></div>
     	<div class="eight columns">
 	  <p>coming soon</p>
 	</div>
       </div>
+      -->
       <div class="row">
 	<div class="four columns"><h4>Blockchain as an IoT Platform</h4></div>
     	<div class="eight columns">
@@ -133,74 +138,61 @@ Therefore, we’re researching VMs on Blockchain to optimize the Blockchain envi
       <div class="row">
 	<div class="four columns"><h4>Smart Contract Security</h4></div>
     	<div class="eight columns">
-	  <p>coming soon</p>
+	  <p>Security vulnerabilities in smart contracts expose an amount of cryptocurrency to the risk of theft like DAO hacking, Parity Multisig wallet freeze, SmartMesh token copy. The project aims to create an automatic security auditing tool that inspects and improves the security </p>
 	</div>
       </div>
-
+    </section>
 
     <!-- Services -->
     <section class="content-section bg-primary text-white text-center" id="services">
       <div class="container">
-        <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">Services</h3>
-          <h4 class="mb-5">What We Offer</h4>
+        <div class="content-section-heading text-center" style="margin-bottom: 50px">
+          <h4 class="text-secondary mb-0">Services</h4>
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-screen-smartphone"></i>
+              <i class="icon-rocket"></i>
             </span>
-            <h4>
-              <strong>Responsive</strong>
-            </h4>
-            <p class="text-faded mb-0">Looks great on any screen size!</p>
+            <h4>Technical Meetup</h4>
+            <p class="text-faded mb-0">We hold a technical meetup for confident blockchain teams</p>
           </div>
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
               <i class="icon-pencil"></i>
             </span>
-            <h4>
-              <strong>Redesigned</strong>
-            </h4>
-            <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
+            <h4>Whitepaper review</h4>
+            <p class="text-faded mb-0">Provide Whitepaper review for enthusiastic blockchain teams</p>
           </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-like"></i>
+              <i class="icon-magnifier"></i>
             </span>
-            <h4>
-              <strong>Favorited</strong>
-            </h4>
-            <p class="text-faded mb-0">Millions of users
-              <i class="fa fa-heart"></i>
-              Start Bootstrap!</p>
+            <h4>Consulting</h4>
+            <p class="text-faded mb-0">Verify whether an idea is feasible or not, and provide guidance to develop blockchain service</p>
           </div>
           <div class="col-lg-3 col-md-6">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-mustache"></i>
+              <i class="icon-graduation"></i>
             </span>
-            <h4>
-              <strong>Question</strong>
-            </h4>
-            <p class="text-faded mb-0">I mustache you a question...</p>
+            <h4>Education</h4>
+            <p class="text-faded mb-0">Educate beginners and students periodically for better blockchain ecosystem</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Callout -->
-    <!--
-    <section class="callout">
+    <section class="content-section" id="sponsors">
       <div class="container text-center">
-        <h4 class="mx-auto mb-5">Welcome to
-          <em>your</em>
-          next website!</h4>
-        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+        <div class="content-section-heading text-center" style="margin-bottom: 20px">
+          <h4 class="text-secondary mb-0">Sponsors</h4>
+        </div>
       </div>
     </section>
-    -->
 
     <!-- Call to Action -->
+    <!--
     <section class="content-section bg-primary text-white">
       <div class="container text-center">
         <h4 class="mb-4">The buttons below are impossible to resist...</h4>
@@ -208,24 +200,31 @@ Therefore, we’re researching VMs on Blockchain to optimize the Blockchain envi
         <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
       </div>
     </section>
+    -->
+
 
     <!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
+            <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/decipher.ac/">
               <i class="icon-social-facebook"></i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-twitter"></i>
+            <a class="social-link rounded-circle text-white mr-3" href="https://medium.com/decipher-media">
+	      <img src="img/medium-icon.png" style="width:40%; margin-top:-4px;"/> 
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
+            <a class="social-link rounded-circle text-white mr-3" href="https://github.com/decipherhub">
               <i class="icon-social-github"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="mailto: contact@decipher.ac">
+              <i class="icon-envelope"></i>
             </a>
           </li>
         </ul>
