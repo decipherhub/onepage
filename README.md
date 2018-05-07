@@ -1,3 +1,3 @@
-# Start Bootstrap - Stylish Portfolio
+# Static Onepage
 
 Decipher's temporary onepage
